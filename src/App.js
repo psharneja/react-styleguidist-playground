@@ -1,24 +1,28 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+import Title from './components/Title';
+import Weather from './components/Weather';
+import Form from './components/Form';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="wrapper">
+      <div className="main container">
+        <div className="row fullscreen">
+          <div className="col-md-5 title-container">
+            <Title />
+          </div>
+          <div className="col-md-7 content-container">
+            <div className="row">
+              <Form />
+            </div>
+            <div className="row">
+              <Weather />
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
