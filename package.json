@@ -9,7 +9,7 @@
     "moment": "^2.27.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1",
+    "react-scripts": "5.0.1",
     "owfont": "git+https://github.com/websygen/owfont.git"
   },
   "scripts": {
@@ -34,6 +34,6 @@
     ]
   },
   "devDependencies": {
-    "react-styleguidist": "^11.0.8"
+    "react-styleguidist": "^11.2.0"
   }
 }
